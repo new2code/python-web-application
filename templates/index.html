@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Flask Demo</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Python Flask Demo</h1>
+        </header>
+
+        <main>
+            <p>This is a beginner-friendly web application built with Flask, a lightweight Python web framework.</p>
+            <p>Click the button below for an example of frontend JavaScript communicating with a Flask API. The API returns dynamic example data that changes with each request.</p>
+            <button id="fetch-data" class="btn">Fetch data from API</button>
+            
+            <div id="api-result" class="api-result" style="display: none;">
+                <h3>API response:</h3>
+                <pre id="api-data"></pre>
+            </div>
+        </main>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
