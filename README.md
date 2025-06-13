@@ -37,6 +37,7 @@ A beginner-friendly web application built with Python and Flask to demonstrate w
    ```
 
 5. **View in browser**
+
    Open http://localhost:5000
 
 ## Project Structure
