@@ -11,7 +11,7 @@ A beginner-friendly web application built with Python and Flask to demonstrate w
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/jc-clark/python-web-application
+   git clone https://github.com/new2code/python-web-application
    cd python-web-application
    ```
 
